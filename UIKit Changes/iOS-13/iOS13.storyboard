@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qdf-3Z-xin">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--iOS 13-->
+        <scene sceneID="qe6-Fm-fbX">
+            <objects>
+                <viewController storyboardIdentifier="iOS13" title="iOS 13" id="Qdf-3Z-xin" customClass="iOS13ViewController" customModule="UIKit_Changes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wvR-Hh-KGn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dee-4f-oJV">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ca9-Nq-mdW">
+                                        <rect key="frame" x="76.666666666666686" y="0.0" width="240" height="182.33333333333334"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tms-Kx-oPi">
+                                        <rect key="frame" x="64" y="355.66666666666669" width="265" height="48"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="tintColor" systemColor="systemGreenColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Diffable Data Source">
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="diffableTapped:" destination="Qdf-3Z-xin" eventType="touchUpInside" id="0Sc-9K-CKe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heE-o3-e8q">
+                                        <rect key="frame" x="38.666666666666657" y="526.66666666666663" width="316" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="tintColor" systemColor="systemGreenColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Collection Compositonal Layout">
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="compositonalTapped:" destination="Qdf-3Z-xin" eventType="touchUpInside" id="Ksu-5e-jnq"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iA9-Su-v22">
+                                        <rect key="frame" x="76.666666666666686" y="576.66666666666663" width="240" height="182.33333333333337"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Tms-Kx-oPi" firstAttribute="centerY" secondItem="dee-4f-oJV" secondAttribute="centerY" id="86g-dv-2Gp"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P6b-N1-20c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="P6b-N1-20c" firstAttribute="bottom" secondItem="dee-4f-oJV" secondAttribute="bottom" id="4jp-rx-KnV"/>
+                            <constraint firstItem="dee-4f-oJV" firstAttribute="top" secondItem="P6b-N1-20c" secondAttribute="top" id="6ZT-7r-wco"/>
+                            <constraint firstItem="P6b-N1-20c" firstAttribute="trailing" secondItem="dee-4f-oJV" secondAttribute="trailing" id="CRF-Xx-N6V"/>
+                            <constraint firstItem="dee-4f-oJV" firstAttribute="leading" secondItem="P6b-N1-20c" secondAttribute="leading" id="gfv-Wh-gsw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="keY-Hs-7Ti" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-585.49618320610682" y="-5.6338028169014089"/>
+        </scene>
+        <!--Diffable Contacts-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="diffable-data" id="Y6W-OH-hqX" customClass="DiffableDataViewController" customModule="UIKit_Changes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Xzq-eV-0o2">
+                                <rect key="frame" x="10" y="69" width="373" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Xzq-eV-0o2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="FVk-i1-rud"/>
+                            <constraint firstItem="Xzq-eV-0o2" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="10" id="c3u-hl-Ksk"/>
+                            <constraint firstItem="Xzq-eV-0o2" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="gEb-0B-Hj4"/>
+                            <constraint firstAttribute="trailing" secondItem="Xzq-eV-0o2" secondAttribute="trailing" constant="10" id="uHt-Zg-8QV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Diffable Contacts" id="460-oJ-4kQ">
+                        <barButtonItem key="rightBarButtonItem" id="11G-Yr-V2r">
+                            <imageReference key="image" image="plus.circle.fill" catalog="system" symbolScale="large"/>
+                            <color key="tintColor" systemColor="systemGreenColor"/>
+                            <connections>
+                                <action selector="didTapAddButton:" destination="Y6W-OH-hqX" id="Bse-eb-Lci"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addButton" destination="11G-Yr-V2r" id="EgY-Z0-o59"/>
+                        <outlet property="diffableTableView" destination="Xzq-eV-0o2" id="SJq-YZ-94q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953.43511450381675" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plus.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

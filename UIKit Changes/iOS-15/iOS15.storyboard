@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--iOS 15-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="iOS15" title="iOS 15" id="Y6W-OH-hqX" customClass="iOS15ViewController" customModule="UIKit_Changes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Igh-df-KXJ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ghw-7Y-mKJ" userLabel="Location Button Stack">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRU-Ve-tbS">
+                                        <rect key="frame" x="0.0" y="217.33333333333331" width="393" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Da1-Ti-QVA" userLabel="Customized Button Stack">
+                                        <rect key="frame" x="0.0" y="324.66666666666669" width="393" height="109.66666666666669"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h7D-ms-pWK" userLabel="Bottom Button Stack">
+                                        <rect key="frame" x="0.0" y="541.66666666666663" width="393" height="217.33333333333337"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3AC-ZF-6Jm">
+                                                <rect key="frame" x="0.0" y="44.666666666666742" width="145.66666666666666" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOb-Pm-UvV">
+                                                <rect key="frame" x="155.66666666666666" y="93.666666666666742" width="82" height="30"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Show Sheet"/>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSk-it-oae">
+                                                <rect key="frame" x="247.66666666666663" y="44.666666666666742" width="145.33333333333337" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dOb-Pm-UvV" firstAttribute="centerX" secondItem="h7D-ms-pWK" secondAttribute="centerX" id="10A-mN-UhC"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Da1-Ti-QVA" firstAttribute="top" secondItem="Igh-df-KXJ" secondAttribute="top" constant="324.66666666666669" id="gr6-vq-S1M"/>
+                                    <constraint firstItem="Da1-Ti-QVA" firstAttribute="centerY" secondItem="Igh-df-KXJ" secondAttribute="centerY" id="hVt-AM-2vw"/>
+                                    <constraint firstItem="Ghw-7Y-mKJ" firstAttribute="top" secondItem="Igh-df-KXJ" secondAttribute="top" id="nRO-n2-JWD"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Igh-df-KXJ" secondAttribute="trailing" id="Jgd-eM-8c7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Igh-df-KXJ" secondAttribute="bottom" id="N9e-SC-btP"/>
+                            <constraint firstItem="Igh-df-KXJ" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="Wkf-fl-DtA"/>
+                            <constraint firstItem="Igh-df-KXJ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="b4H-lc-ifk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonStack" destination="Da1-Ti-QVA" id="jWa-qg-Nt4"/>
+                        <outlet property="currentLocationLabel" destination="GRU-Ve-tbS" id="fVm-uV-2Ay"/>
+                        <outlet property="locationStack" destination="Ghw-7Y-mKJ" id="MI1-A4-Xe7"/>
+                        <outlet property="sheetButton" destination="dOb-Pm-UvV" id="fXT-wN-Cg6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-11" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

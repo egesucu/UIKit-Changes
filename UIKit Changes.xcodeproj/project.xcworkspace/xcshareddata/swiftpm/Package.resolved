@@ -1,0 +1,15 @@
+{
+  "originHash" : "70c8abf697010440ed8da76403d2a6a23315d540f92bbbe1d468ec8159f2153a",
+  "pins" : [
+    {
+      "identity" : "loremipsum-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/owlcoding/LoremIpsum-Swift/",
+      "state" : {
+        "revision" : "47be1bbd0e2744a4f7d444907b137068a0b21388",
+        "version" : "0.6.0"
+      }
+    }
+  ],
+  "version" : 3
+}

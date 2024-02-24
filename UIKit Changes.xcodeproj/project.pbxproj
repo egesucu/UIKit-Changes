@@ -7,15 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D5D60AB2B77FE080052EA8C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60AA2B77FE080052EA8C /* Contact.swift */; };
+		9D5D60AD2B77FFEE0052EA8C /* DiffableDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60AC2B77FFEE0052EA8C /* DiffableDataViewController.swift */; };
+		9D5D60AF2B7805BA0052EA8C /* iOS13.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5D60AE2B7805BA0052EA8C /* iOS13.storyboard */; };
+		9D5D60B12B793D2A0052EA8C /* ApplicationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60B02B793D2A0052EA8C /* ApplicationLayout.swift */; };
+		9D5D60B52B79445A0052EA8C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60B42B79445A0052EA8C /* Weather.swift */; };
+		9D5D60B72B7945360052EA8C /* WeatherBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60B62B7945360052EA8C /* WeatherBanner.swift */; };
+		9D5D60B92B7946160052EA8C /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60B82B7946160052EA8C /* WeatherViewController.swift */; };
+		9D5D60BB2B7946590052EA8C /* WeatherBannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60BA2B7946590052EA8C /* WeatherBannerCollectionViewCell.swift */; };
+		9D5D60BD2B7947C90052EA8C /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60BC2B7947C90052EA8C /* WeatherCollectionViewCell.swift */; };
+		9D5D60C12B794D450052EA8C /* WeatherView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60C02B794D450052EA8C /* WeatherView+Extension.swift */; };
+		9D5D60C32B794F240052EA8C /* WeatherHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60C22B794F240052EA8C /* WeatherHeaderView.swift */; };
+		9D5D60C52B79545B0052EA8C /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D60C42B79545B0052EA8C /* SectionView.swift */; };
+		9D65DCA32B79712A006A76C4 /* iOS13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D65DCA22B79712A006A76C4 /* iOS13ViewController.swift */; };
+		9D65DCA72B797736006A76C4 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D65DCA62B797736006A76C4 /* Mail.swift */; };
+		9D65DCA92B7977F5006A76C4 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D65DCA82B7977F5006A76C4 /* MailCollectionViewCell.swift */; };
+		9D65DCAB2B797C30006A76C4 /* iOS14.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D65DCAA2B797C30006A76C4 /* iOS14.storyboard */; };
+		9D65DCAD2B797D72006A76C4 /* iOS14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D65DCAC2B797D72006A76C4 /* iOS14ViewController.swift */; };
+		9D65DCAF2B79943D006A76C4 /* iOS15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D65DCAE2B79943D006A76C4 /* iOS15ViewController.swift */; };
+		9D65DCB12B799444006A76C4 /* iOS15.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D65DCB02B799444006A76C4 /* iOS15.storyboard */; };
+		9D660AC02B8A0C8900CB4569 /* iOS16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660ABF2B8A0C8900CB4569 /* iOS16ViewController.swift */; };
+		9D660AC22B8A0D5D00CB4569 /* CollectionViewResizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AC12B8A0D5D00CB4569 /* CollectionViewResizedViewController.swift */; };
+		9D660AC42B8A117500CB4569 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AC32B8A117500CB4569 /* CalendarCollectionViewCell.swift */; };
+		9D660AC72B8A1DFA00CB4569 /* LoremIpsum in Frameworks */ = {isa = PBXBuildFile; productRef = 9D660AC62B8A1DFA00CB4569 /* LoremIpsum */; };
+		9D660AC92B8A262000CB4569 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AC82B8A262000CB4569 /* CalendarHeaderView.swift */; };
+		9D660ACB2B8A2EE700CB4569 /* SymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660ACA2B8A2EE700CB4569 /* SymbolsViewController.swift */; };
+		9D660ACE2B8A384C00CB4569 /* iOS17.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D660ACD2B8A384C00CB4569 /* iOS17.storyboard */; };
+		9D660AD02B8A385600CB4569 /* iOS17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660ACF2B8A385600CB4569 /* iOS17ViewController.swift */; };
+		9D660AD22B8A470D00CB4569 /* SwiftUICellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AD12B8A470D00CB4569 /* SwiftUICellViewController.swift */; };
+		9D660AD42B8A52A100CB4569 /* NoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AD32B8A52A100CB4569 /* NoContentViewController.swift */; };
+		9D660AD62B8A56E600CB4569 /* PageControlTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AD52B8A56E600CB4569 /* PageControlTimerViewController.swift */; };
+		9D660AD82B8A696A00CB4569 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D660AD72B8A696A00CB4569 /* ImageCollectionViewCell.swift */; };
+		9DF081742B80C26C005885D1 /* iOS16.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF081732B80C26C005885D1 /* iOS16.storyboard */; };
+		9DF081762B80C27A005885D1 /* PageControlTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF081752B80C27A005885D1 /* PageControlTextViewController.swift */; };
 		9DF15DA72B6FB96400DB4AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF15DA62B6FB96400DB4AA3 /* AppDelegate.swift */; };
 		9DF15DA92B6FB96400DB4AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF15DA82B6FB96400DB4AA3 /* SceneDelegate.swift */; };
 		9DF15DAB2B6FB96400DB4AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF15DAA2B6FB96400DB4AA3 /* ViewController.swift */; };
 		9DF15DAE2B6FB96400DB4AA3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DF15DAD2B6FB96400DB4AA3 /* Base */; };
 		9DF15DB02B6FB96500DB4AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF15DAF2B6FB96500DB4AA3 /* Assets.xcassets */; };
 		9DF15DB32B6FB96500DB4AA3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DF15DB22B6FB96500DB4AA3 /* Base */; };
+		9DF15DBB2B6FBB5200DB4AA3 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF15DBA2B6FBB5200DB4AA3 /* Version.swift */; };
+		9DF15DBD2B6FC79100DB4AA3 /* VersionCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF15DBC2B6FC79100DB4AA3 /* VersionCollectionCell.xib */; };
+		9DF15DBF2B6FCA6B00DB4AA3 /* VersionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF15DBE2B6FCA6B00DB4AA3 /* VersionCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D5D60AA2B77FE080052EA8C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		9D5D60AC2B77FFEE0052EA8C /* DiffableDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataViewController.swift; sourceTree = "<group>"; };
+		9D5D60AE2B7805BA0052EA8C /* iOS13.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iOS13.storyboard; sourceTree = "<group>"; };
+		9D5D60B02B793D2A0052EA8C /* ApplicationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationLayout.swift; sourceTree = "<group>"; };
+		9D5D60B42B79445A0052EA8C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		9D5D60B62B7945360052EA8C /* WeatherBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBanner.swift; sourceTree = "<group>"; };
+		9D5D60B82B7946160052EA8C /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		9D5D60BA2B7946590052EA8C /* WeatherBannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D5D60BC2B7947C90052EA8C /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D5D60C02B794D450052EA8C /* WeatherView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherView+Extension.swift"; sourceTree = "<group>"; };
+		9D5D60C22B794F240052EA8C /* WeatherHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHeaderView.swift; sourceTree = "<group>"; };
+		9D5D60C42B79545B0052EA8C /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		9D65DCA22B79712A006A76C4 /* iOS13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13ViewController.swift; sourceTree = "<group>"; };
+		9D65DCA62B797736006A76C4 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		9D65DCA82B7977F5006A76C4 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D65DCAA2B797C30006A76C4 /* iOS14.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iOS14.storyboard; sourceTree = "<group>"; };
+		9D65DCAC2B797D72006A76C4 /* iOS14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14ViewController.swift; sourceTree = "<group>"; };
+		9D65DCAE2B79943D006A76C4 /* iOS15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15ViewController.swift; sourceTree = "<group>"; };
+		9D65DCB02B799444006A76C4 /* iOS15.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iOS15.storyboard; sourceTree = "<group>"; };
+		9D660ABF2B8A0C8900CB4569 /* iOS16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS16ViewController.swift; sourceTree = "<group>"; };
+		9D660AC12B8A0D5D00CB4569 /* CollectionViewResizedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewResizedViewController.swift; sourceTree = "<group>"; };
+		9D660AC32B8A117500CB4569 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D660AC82B8A262000CB4569 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		9D660ACA2B8A2EE700CB4569 /* SymbolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsViewController.swift; sourceTree = "<group>"; };
+		9D660ACD2B8A384C00CB4569 /* iOS17.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iOS17.storyboard; sourceTree = "<group>"; };
+		9D660ACF2B8A385600CB4569 /* iOS17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17ViewController.swift; sourceTree = "<group>"; };
+		9D660AD12B8A470D00CB4569 /* SwiftUICellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICellViewController.swift; sourceTree = "<group>"; };
+		9D660AD32B8A52A100CB4569 /* NoContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoContentViewController.swift; sourceTree = "<group>"; };
+		9D660AD52B8A56E600CB4569 /* PageControlTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlTimerViewController.swift; sourceTree = "<group>"; };
+		9D660AD72B8A696A00CB4569 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DF081732B80C26C005885D1 /* iOS16.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iOS16.storyboard; sourceTree = "<group>"; };
+		9DF081752B80C27A005885D1 /* PageControlTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlTextViewController.swift; sourceTree = "<group>"; };
 		9DF15DA32B6FB96400DB4AA3 /* UIKit Changes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Changes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF15DA62B6FB96400DB4AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DF15DA82B6FB96400DB4AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +92,9 @@
 		9DF15DAF2B6FB96500DB4AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DF15DB22B6FB96500DB4AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF15DB42B6FB96500DB4AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF15DBA2B6FBB5200DB4AA3 /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		9DF15DBC2B6FC79100DB4AA3 /* VersionCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VersionCollectionCell.xib; sourceTree = "<group>"; };
+		9DF15DBE2B6FCA6B00DB4AA3 /* VersionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +102,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D660AC72B8A1DFA00CB4569 /* LoremIpsum in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D5D60BE2B794C4E0052EA8C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D60BA2B7946590052EA8C /* WeatherBannerCollectionViewCell.swift */,
+				9D5D60BC2B7947C90052EA8C /* WeatherCollectionViewCell.swift */,
+				9D5D60C22B794F240052EA8C /* WeatherHeaderView.swift */,
+				9D5D60C42B79545B0052EA8C /* SectionView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9D5D60BF2B794C550052EA8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D60B62B7945360052EA8C /* WeatherBanner.swift */,
+				9D5D60B42B79445A0052EA8C /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D65DCA02B7970E1006A76C4 /* Diffable Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D60AA2B77FE080052EA8C /* Contact.swift */,
+				9D5D60AC2B77FFEE0052EA8C /* DiffableDataViewController.swift */,
+			);
+			path = "Diffable Data Source";
+			sourceTree = "<group>";
+		};
+		9D65DCA12B7970EF006A76C4 /* Compositonal Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D60B02B793D2A0052EA8C /* ApplicationLayout.swift */,
+				9D5D60B82B7946160052EA8C /* WeatherViewController.swift */,
+				9D5D60C02B794D450052EA8C /* WeatherView+Extension.swift */,
+				9D5D60BE2B794C4E0052EA8C /* Cells */,
+				9D5D60BF2B794C550052EA8C /* Models */,
+			);
+			path = "Compositonal Layout";
+			sourceTree = "<group>";
+		};
+		9D660ACC2B8A383900CB4569 /* iOS-17 */ = {
+			isa = PBXGroup;
+			children = (
+				9D660ACD2B8A384C00CB4569 /* iOS17.storyboard */,
+				9D660ACF2B8A385600CB4569 /* iOS17ViewController.swift */,
+				9D660AD52B8A56E600CB4569 /* PageControlTimerViewController.swift */,
+				9D660AD72B8A696A00CB4569 /* ImageCollectionViewCell.swift */,
+				9D660AD32B8A52A100CB4569 /* NoContentViewController.swift */,
+			);
+			path = "iOS-17";
+			sourceTree = "<group>";
+		};
 		9DF15D9A2B6FB96400DB4AA3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +181,77 @@
 		9DF15DA52B6FB96400DB4AA3 /* UIKit Changes */ = {
 			isa = PBXGroup;
 			children = (
-				9DF15DA62B6FB96400DB4AA3 /* AppDelegate.swift */,
-				9DF15DA82B6FB96400DB4AA3 /* SceneDelegate.swift */,
-				9DF15DAA2B6FB96400DB4AA3 /* ViewController.swift */,
-				9DF15DAC2B6FB96400DB4AA3 /* Main.storyboard */,
-				9DF15DAF2B6FB96500DB4AA3 /* Assets.xcassets */,
-				9DF15DB12B6FB96500DB4AA3 /* LaunchScreen.storyboard */,
-				9DF15DB42B6FB96500DB4AA3 /* Info.plist */,
+				9DF15DC42B6FD12400DB4AA3 /* MainFiles */,
+				9DF15DC32B6FD10E00DB4AA3 /* iOS-13 */,
+				9DF15DC02B6FD0F600DB4AA3 /* iOS-14 */,
+				9DF15DC12B6FD0FE00DB4AA3 /* iOS-15 */,
+				9DF15DC22B6FD10700DB4AA3 /* iOS-16 */,
+				9D660ACC2B8A383900CB4569 /* iOS-17 */,
 			);
 			path = "UIKit Changes";
+			sourceTree = "<group>";
+		};
+		9DF15DC02B6FD0F600DB4AA3 /* iOS-14 */ = {
+			isa = PBXGroup;
+			children = (
+				9D65DCA62B797736006A76C4 /* Mail.swift */,
+				9D65DCA82B7977F5006A76C4 /* MailCollectionViewCell.swift */,
+				9D65DCAC2B797D72006A76C4 /* iOS14ViewController.swift */,
+				9D65DCAA2B797C30006A76C4 /* iOS14.storyboard */,
+			);
+			path = "iOS-14";
+			sourceTree = "<group>";
+		};
+		9DF15DC12B6FD0FE00DB4AA3 /* iOS-15 */ = {
+			isa = PBXGroup;
+			children = (
+				9D65DCAE2B79943D006A76C4 /* iOS15ViewController.swift */,
+				9D65DCB02B799444006A76C4 /* iOS15.storyboard */,
+			);
+			path = "iOS-15";
+			sourceTree = "<group>";
+		};
+		9DF15DC22B6FD10700DB4AA3 /* iOS-16 */ = {
+			isa = PBXGroup;
+			children = (
+				9DF081732B80C26C005885D1 /* iOS16.storyboard */,
+				9DF081752B80C27A005885D1 /* PageControlTextViewController.swift */,
+				9D660AC12B8A0D5D00CB4569 /* CollectionViewResizedViewController.swift */,
+				9D660ACA2B8A2EE700CB4569 /* SymbolsViewController.swift */,
+				9D660AC82B8A262000CB4569 /* CalendarHeaderView.swift */,
+				9D660AC32B8A117500CB4569 /* CalendarCollectionViewCell.swift */,
+				9D660ABF2B8A0C8900CB4569 /* iOS16ViewController.swift */,
+				9D660AD12B8A470D00CB4569 /* SwiftUICellViewController.swift */,
+			);
+			path = "iOS-16";
+			sourceTree = "<group>";
+		};
+		9DF15DC32B6FD10E00DB4AA3 /* iOS-13 */ = {
+			isa = PBXGroup;
+			children = (
+				9D65DCA12B7970EF006A76C4 /* Compositonal Layout */,
+				9D65DCA02B7970E1006A76C4 /* Diffable Data Source */,
+				9D5D60AE2B7805BA0052EA8C /* iOS13.storyboard */,
+				9D65DCA22B79712A006A76C4 /* iOS13ViewController.swift */,
+			);
+			path = "iOS-13";
+			sourceTree = "<group>";
+		};
+		9DF15DC42B6FD12400DB4AA3 /* MainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9DF15DB12B6FB96500DB4AA3 /* LaunchScreen.storyboard */,
+				9DF15DB42B6FB96500DB4AA3 /* Info.plist */,
+				9DF15DA62B6FB96400DB4AA3 /* AppDelegate.swift */,
+				9DF15DA82B6FB96400DB4AA3 /* SceneDelegate.swift */,
+				9DF15DAF2B6FB96500DB4AA3 /* Assets.xcassets */,
+				9DF15DAC2B6FB96400DB4AA3 /* Main.storyboard */,
+				9DF15DAA2B6FB96400DB4AA3 /* ViewController.swift */,
+				9DF15DBE2B6FCA6B00DB4AA3 /* VersionCollectionViewCell.swift */,
+				9DF15DBA2B6FBB5200DB4AA3 /* Version.swift */,
+				9DF15DBC2B6FC79100DB4AA3 /* VersionCollectionCell.xib */,
+			);
+			path = MainFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +270,9 @@
 			dependencies = (
 			);
 			name = "UIKit Changes";
+			packageProductDependencies = (
+				9D660AC62B8A1DFA00CB4569 /* LoremIpsum */,
+			);
 			productName = "UIKit Changes";
 			productReference = 9DF15DA32B6FB96400DB4AA3 /* UIKit Changes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +301,9 @@
 				Base,
 			);
 			mainGroup = 9DF15D9A2B6FB96400DB4AA3;
+			packageReferences = (
+				9D660AC52B8A1DFA00CB4569 /* XCRemoteSwiftPackageReference "LoremIpsum-Swift" */,
+			);
 			productRefGroup = 9DF15DA42B6FB96400DB4AA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D65DCB12B799444006A76C4 /* iOS15.storyboard in Resources */,
+				9DF081742B80C26C005885D1 /* iOS16.storyboard in Resources */,
+				9DF15DBD2B6FC79100DB4AA3 /* VersionCollectionCell.xib in Resources */,
+				9D65DCAB2B797C30006A76C4 /* iOS14.storyboard in Resources */,
+				9D660ACE2B8A384C00CB4569 /* iOS17.storyboard in Resources */,
 				9DF15DB02B6FB96500DB4AA3 /* Assets.xcassets in Resources */,
+				9D5D60AF2B7805BA0052EA8C /* iOS13.storyboard in Resources */,
 				9DF15DB32B6FB96500DB4AA3 /* Base in Resources */,
 				9DF15DAE2B6FB96400DB4AA3 /* Base in Resources */,
 			);
@@ -138,9 +337,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D660AC22B8A0D5D00CB4569 /* CollectionViewResizedViewController.swift in Sources */,
+				9D65DCA72B797736006A76C4 /* Mail.swift in Sources */,
+				9D660AD82B8A696A00CB4569 /* ImageCollectionViewCell.swift in Sources */,
+				9D5D60AB2B77FE080052EA8C /* Contact.swift in Sources */,
+				9D5D60C32B794F240052EA8C /* WeatherHeaderView.swift in Sources */,
+				9D5D60C12B794D450052EA8C /* WeatherView+Extension.swift in Sources */,
+				9D65DCA32B79712A006A76C4 /* iOS13ViewController.swift in Sources */,
+				9D5D60B92B7946160052EA8C /* WeatherViewController.swift in Sources */,
 				9DF15DAB2B6FB96400DB4AA3 /* ViewController.swift in Sources */,
+				9D65DCAD2B797D72006A76C4 /* iOS14ViewController.swift in Sources */,
+				9D660AC92B8A262000CB4569 /* CalendarHeaderView.swift in Sources */,
+				9D5D60AD2B77FFEE0052EA8C /* DiffableDataViewController.swift in Sources */,
+				9D660AD42B8A52A100CB4569 /* NoContentViewController.swift in Sources */,
+				9D5D60B52B79445A0052EA8C /* Weather.swift in Sources */,
 				9DF15DA72B6FB96400DB4AA3 /* AppDelegate.swift in Sources */,
+				9D660ACB2B8A2EE700CB4569 /* SymbolsViewController.swift in Sources */,
+				9D660AC02B8A0C8900CB4569 /* iOS16ViewController.swift in Sources */,
+				9D5D60BB2B7946590052EA8C /* WeatherBannerCollectionViewCell.swift in Sources */,
+				9D660AC42B8A117500CB4569 /* CalendarCollectionViewCell.swift in Sources */,
+				9D660AD62B8A56E600CB4569 /* PageControlTimerViewController.swift in Sources */,
+				9D65DCA92B7977F5006A76C4 /* MailCollectionViewCell.swift in Sources */,
+				9DF081762B80C27A005885D1 /* PageControlTextViewController.swift in Sources */,
+				9D65DCAF2B79943D006A76C4 /* iOS15ViewController.swift in Sources */,
+				9D660AD22B8A470D00CB4569 /* SwiftUICellViewController.swift in Sources */,
+				9D5D60B12B793D2A0052EA8C /* ApplicationLayout.swift in Sources */,
+				9DF15DBF2B6FCA6B00DB4AA3 /* VersionCollectionViewCell.swift in Sources */,
+				9D660AD02B8A385600CB4569 /* iOS17ViewController.swift in Sources */,
+				9D5D60B72B7945360052EA8C /* WeatherBanner.swift in Sources */,
+				9D5D60C52B79545B0052EA8C /* SectionView.swift in Sources */,
+				9DF15DBB2B6FBB5200DB4AA3 /* Version.swift in Sources */,
 				9DF15DA92B6FB96400DB4AA3 /* SceneDelegate.swift in Sources */,
+				9D5D60BD2B7947C90052EA8C /* WeatherCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -294,12 +522,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit Changes/Info.plist";
+				INFOPLIST_FILE = "UIKit Changes/MainFiles/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,12 +551,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit Changes/Info.plist";
+				INFOPLIST_FILE = "UIKit Changes/MainFiles/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D660AC52B8A1DFA00CB4569 /* XCRemoteSwiftPackageReference "LoremIpsum-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/owlcoding/LoremIpsum-Swift/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D660AC62B8A1DFA00CB4569 /* LoremIpsum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D660AC52B8A1DFA00CB4569 /* XCRemoteSwiftPackageReference "LoremIpsum-Swift" */;
+			productName = LoremIpsum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DF15D9B2B6FB96400DB4AA3 /* Project object */;
 }
