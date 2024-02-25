@@ -34,9 +34,10 @@ class iOS14ViewController: UIViewController {
     
     private func configureAction() {
         let action = UIAction(
-            title: "Select") { action in
-                print("\(action.title) action is triggered.")
-            }
+            title: "Select"
+        ) { action in
+            print("\(action.title) action is triggered.")
+        }
         
         actionableButton.addAction(action, for: .touchUpInside)
     }
@@ -55,7 +56,6 @@ class iOS14ViewController: UIViewController {
                 cell.titleLabel.text = mail.title
             }
     }
-    
 
 }
 

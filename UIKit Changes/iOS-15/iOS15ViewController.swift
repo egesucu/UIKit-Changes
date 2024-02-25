@@ -50,7 +50,13 @@ class iOS15ViewController: UIViewController {
             print("Action Pressed")
         }
         let firstButton = UIButton(type: .system, primaryAction: printAction)
+        
         firstButton.configuration = .bordered()
+        firstButton.configuration?.baseBackgroundColor = .white
+        firstButton.configuration?.baseBackgroundColor = .green
+        firstButton.configuration?.contentInsets = .init(top: 10, leading: 10, bottom: 10, trailing: 10)
+        firstButton.configuration?.imagePlacement = .top
+        
         let secondButton = UIButton(type: .system, primaryAction: printAction)
         secondButton.configuration = .plain()
         let thirdButton = UIButton(type: .system, primaryAction: printAction)
