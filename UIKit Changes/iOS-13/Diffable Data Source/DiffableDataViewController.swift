@@ -7,8 +7,6 @@
 
 import UIKit
 
-typealias TableDelegate = UITableViewDelegate & UITableViewDiffableDataSource<Section, Contact>
-
 class DiffableDataViewController: UIViewController {
     
     @IBOutlet weak var diffableTableView: UITableView!
